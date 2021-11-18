@@ -50,7 +50,7 @@ task({ :sample_data => :environment}) do
 
     users = [
       {id: 81, email: "galen@example.com", first_name: "galen", last_name: "Example", created_at: "2015-01-19 09:24:34", updated_at: "2019-10-08 10:25:00"},
-      {id: 82, email: "trina@example.com", first_name: "trina", last_name: "Example", created_at: "2014-09-02 06:05:56", updated_at: "2019-10-08 10:25:00"},
+      {id: 82, email: "alice@example.com", first_name: "alice", last_name: "Example", created_at: "2014-09-02 06:05:56", updated_at: "2019-10-08 10:25:00"},
       {id: 83, email: "tyree@example.com", first_name: "tyree", last_name: "Example", created_at: "2017-06-23 22:31:32", updated_at: "2019-10-08 10:25:00"},
       {id: 84, email: "sharilyn@example.com", first_name: "sharilyn", last_name: "Example", created_at: "2014-09-23 01:03:23", updated_at: "2019-10-08 10:25:00"},
       {id: 85, email: "judith@example.com", first_name: "judith", last_name: "Example", created_at: "2014-08-02 12:55:21", updated_at: "2019-10-08 10:25:00"},
@@ -62,7 +62,7 @@ task({ :sample_data => :environment}) do
       {id: 91, email: "phylicia@example.com", first_name: "phylicia", last_name: "Example", created_at: "2016-11-11 04:22:51", updated_at: "2019-10-08 10:25:00"},
       {id: 92, email: "trey@example.com", first_name: "trey", last_name: "Example", created_at: "2015-03-19 22:51:10", updated_at: "2019-10-08 10:25:00"},
       {id: 93, email: "wilford@example.com", first_name: "wilford", last_name: "Example", created_at: "2018-07-03 04:50:16", updated_at: "2019-10-08 10:25:00"},
-      {id: 94, email: "tristan@example.com", first_name: "tristan", last_name: "Example", created_at: "2016-04-11 04:31:49", updated_at: "2019-10-08 10:25:00"},
+      {id: 94, email: "bob@example.com", first_name: "bob", last_name: "Example", created_at: "2016-04-11 04:31:49", updated_at: "2019-10-08 10:25:00"},
       {id: 95, email: "leilani@example.com", first_name: "leilani", last_name: "Example", created_at: "2016-07-07 15:54:04", updated_at: "2019-10-08 10:25:00"},
       {id: 96, email: "jolie@example.com", first_name: "jolie", last_name: "Example", created_at: "2018-12-19 04:59:05", updated_at: "2019-10-08 10:25:00"},
       {id: 97, email: "roselee@example.com", first_name: "roselee", last_name: "Example", created_at: "2018-09-23 23:09:31", updated_at: "2019-10-08 10:25:00"},
@@ -70,7 +70,7 @@ task({ :sample_data => :environment}) do
       {id: 99, email: "jackson@example.com", first_name: "jackson", last_name: "Example", created_at: "2018-08-18 12:42:06", updated_at: "2019-10-08 10:25:00"},
       {id: 100, email: "kina@example.com", first_name: "kina", last_name: "Example", created_at: "2018-05-05 13:27:22", updated_at: "2019-10-08 10:25:00"},
       {id: 101, email: "drew@example.com", first_name: "drew", last_name: "Example", created_at: "2015-03-06 21:22:35", updated_at: "2019-10-08 10:25:00"},
-      {id: 102, email: "austin@example.com", first_name: "austin", last_name: "Example", created_at: "2014-07-27 22:35:21", updated_at: "2019-10-08 10:25:00"},
+      {id: 102, email: "carol@example.com", first_name: "carol", last_name: "Example", created_at: "2014-07-27 22:35:21", updated_at: "2019-10-08 10:25:00"},
       {id: 103, email: "lea@example.com", first_name: "lea", last_name: "Example", created_at: "2016-01-27 07:56:16", updated_at: "2019-10-08 10:25:00"},
       {id: 104, email: "ester@example.com", first_name: "ester", last_name: "Example", created_at: "2016-09-23 04:05:25", updated_at: "2019-10-08 10:25:00"},
       {id: 105, email: "robin@example.com", first_name: "robin", last_name: "Example", created_at: "2017-02-27 23:11:30", updated_at: "2019-10-08 10:25:00"},
