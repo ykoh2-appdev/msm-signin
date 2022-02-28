@@ -1,14 +1,16 @@
-image: jelaniwoods/appdev2021-msm-signin@sha256:25030993aa3ae2d50cd508f13e49bbe96972874d3df7a84bbf903c902d343e13
+image: patrickmckernin/msmsignin2022winter
+
 tasks:
-  - command: bundle install
   - init: bin/setup
 ports:
   - port: 3000
     onOpen: open-preview
-    visibility: public
+  - port: 9515
+    onOpen: ignore
+
 
 vscode:
   extensions:
-    - shd101wyy.markdown-preview-enhanced
-    - wingrunr21.vscode-ruby
-   
+    - vortizhe.simple-ruby-erb
+    - mbessey.vscode-rufo
+    - aliariff.vscode-erb-beautify
